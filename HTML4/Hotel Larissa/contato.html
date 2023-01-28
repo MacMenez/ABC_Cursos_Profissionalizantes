@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="content-Type" content="text/html; charset=utf-8" />
+		<title>Hotel Larissa</title>
+	</head>
+	<body link="#8b2323" alink="#daa520" vlink="#cd66600" style="margin:0px">
+		<div style="background-image:url(imagens/topo.png);">
+			<p style="font-family:lucida sans; font-size:125px; margin:0px; color:#ffffff">
+				Hotel Larissa
+			</p>
+		</div>
+		<div style="height:450px; width:15%; background-image:url(imagens/menu.png); float:left; margin-top:20px">
+		<div style="font-family:lucida sans; font-size:16px; text-align:center; padding-top:10px">
+			<a href="index.html">Home</a><br /><hr />
+			<a href="diaria.html">Diárias</a><br /><hr />
+			<a href="refeição.html">Refeição</a><br /><hr />
+			<a href="turismo.html">Turismo</a><br /><hr />
+			<span style="font-size:10px; color:#ccccccc;">>></span></span>Contato<span style="font-size;10px; color:#ccccccc;"><<</span><br /><hr />
+		</div>
+		</div>
+		<div style="height:450px; width:85%; background-image:url(imagens/conteudo.png); float:left; margin-top:20px">
+		<div style="font-family:lucida sans; font-size:16px; text-align:left; color:#cc9900; padding-left:10px">
+			<form id="form_contato" name="contato" method="post" action="envio.html">
+			<p></p>
+			<fieldset>
+				<Legend style="color:#cccccc; font-size:12px">Tire suas dúvidas, entre em contato conosco!</legend>
+				<p>
+					<label for="user_nome" style="font-family:lucida sans; font-size:14px;">Nome:</label><br />
+					<input type="text" name="nome" id="user_nome" size="35" maxlength="30" style="font-size:12px;"/>
+				</p>
+				<p>
+					<label for="user_tel" style="font-family:lucida sans; font-size:14px;">Telefone:</label><br />
+					<input type="text" name="telefone" id="user_tel" size="35" maxlength="30" style="font-size:12px;"/>
+				</p>
+				<p>
+					<label for="user_mail" style="font-family:lucida sans; font-size:14px;">E-mail:</label><br />
+					<input type="text" name="email" id="user_mail" size="35" maxlength="30" style="font-size:12px;"/>
+				<p>
+					<label for="user_msg" style="font-family:lucida sans; font-size:14px;">Mensagem:</label><br />
+					<textarea type="text" name="mensagem" id="user_msg" cols="50" rows="8" style="font-size:12px;"/></textarea>
+				</p>
+				<p>
+					<input type="submit" name="enviar" id="btn_enviar" value="Enviar"/><label></label>
+				</p>
+			</fieldset>
+		</div>
+		</div>
+	</body>
+</html>

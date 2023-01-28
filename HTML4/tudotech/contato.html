@@ -1,0 +1,77 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="content-Type" content="text/html; charset=utf-8" />
+		<title>Tudothech-O Seu Portal de Tecnologia!</title>
+	</head>
+	<body style="background-image:url(imagens/fundo.png); font-family:lucida sans; font-size:15px; margin:0px" link="#ff6600" alink="#ffcco" vlink="#ff3300">
+		<div style="margin-left:15%; margin-right:15%">
+			<div style="background-image:url(imagens/cabecalho.png); width:100%; height:200px; text-align:center">
+				<img src="imagens/logo.png" alt="Tudotech" style="margin-top:70px" />
+			</div>
+			<div style="background-color:#dddddd; width:25%; height:760px; float:left;">
+				<div style="margin:10px">
+					<a href="index.html"><img src="imagens/marcador.png" alt="Página Inicial" border="0" />Página Inicial
+					<hr />
+					<a href="games.html"><img src="imagens/marcador.png" alt="Video Games" border="0" />Video Games
+					<hr />
+					<a href="informatica.html"><img src="imagens/marcador.png" alt="Informática" border="0" />Informática
+					<hr />
+					<a href="celulares.html"><img src="imagens/marcador.png" alt="Celulares" border="0" />Celulares
+					<hr />
+					<img src="imagens/marcador.png" alt="Contato" border="0" />Contato
+					<hr />
+				</div>
+			</div>
+			<div style="background-color:#ffffff; width:75%; height:760px; float:left">
+				<div style="margin:10px; text-align:center; color:#363636;">
+					<form id="contato" name="contato" method="post" action="enviado.html">
+						<fieldset>
+							<legend>Informações Obrigatorias</legend>
+							<p>
+								<label for="nome_user">Nome:</label>
+								<br/>
+								<input type="text" name="nome" id="nome_user" />
+							</p>
+							<p>
+								<label for="email_user">E-Mail:</label>
+								<br/>
+								<input type="text" name="email" id="email_user" /><label></label>
+							</p>
+							<p>
+								Sexo:<br />
+								<input type="radio" name="sexo" id="sexo_user" value="masculino" />Masculino<br />
+								<input type="radio" name="sexo" id="sexo_user" value="feminino" />Feminino<br />
+							</p>
+							<p>
+								Mensagem:<br />
+								<textarea name="msg_user" id="msg_user" cols="35" rows="8"></textarea>
+							</p>
+						</fieldset>
+						<p>&nbsp;</p>
+						<fieldset>
+							<legend>Informaçoes Extras</legend>
+							<p>
+								Seção Favorita:<br />
+								<select name="favorita" id="fav_user" style="width:200px">
+									<option value="#null"></option>
+									<option value="games">Video Games</option>
+									<option value="info">Informática</option>
+									<option value="celulares">Celulares</option>
+								</select>
+							</p>
+						</fieldset>
+						<p>&nbsp;</p>
+						<p align="center">
+							<input type="submit" name="enviar" id="enviar_user" value="Enviar" style="width:10%; text-align:left;" />
+						</p>
+					</form>
+				</div>
+			</div>
+			<div style="background-image:url(imagens/rodape.png); width:100%; height:40px; float:left">
+				<img src="imagens/logo_rodape.png" alt="Tudotech - Todos os direitos reservados" style="margin-top:10px" border="0" />
+			</div>
+		</div>
+	</body>
+</html>
